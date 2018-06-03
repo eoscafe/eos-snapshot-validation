@@ -1,0 +1,78 @@
+{
+	"version": "0.4.6",
+	"parameters": {
+		"period": 350,
+		"block_begin": 3904416,
+		"block_end": 5721761
+	},
+	"accounts": {
+		"valid": 163930,
+		"registered": 132192,
+		"registered_included_percent": "80.63929726102604%",
+		"fallback": 31739,
+		"fallback_included_percent": "19.361312755444395%"
+	},
+	"supply": {
+		"total": 1000000000.1533,
+		"expected": 1000000000,
+		"included": 996690678.8329,
+		"percent_included": "99%",
+		"liquid": 1000000000.1537,
+		"margin_of_error": "-0.0000000153700000%"
+	},
+	"meta": {
+		"author": "EOS Authority",
+		"timestamp_started": 1527979725,
+		"timestamp_completed": 1527985214,
+		"total_time": "1h 31m 29s"
+	},
+	"checksum": {
+		"output": {
+			"snapshot": "c564dea1ebd79d28f21b8ffd259d00b2774eea05",
+			"snapshot_unregistered": "b16500745225e8f2b18e0254dca3dfbbc324eedf",
+			"distribution": "49e2b56a633d3343d4592768bb3d8496e8a69679"
+		},
+		"db": {
+			"wallets": "9687e925f8e020c821d679f3f9e1d6cb126693d3",
+			"buys": "0bf90a6da5e0af9877b3fddac6376f584b14c783",
+			"claims": "03118e561e4f995aac75d690cb8b21aeffe816d0",
+			"registrations": "8019bbcc820afa959ca20aa21e2f9ec38aa994d4",
+			"reclaimables": "84e645e973ec674597cc83c4f3bc903616f624e7",
+			"transfers": "9a4a8e5dcb34dc6cda3ea9b0ced6dafdbda1ff7b",
+			"snapshot": "6280e5ea36feabbd8fcd85a3f74aa22e7af10a2c",
+			"public_keys": "26bf7bd5b1c2123a03eb6c55411472ab134b4ebc"
+		}
+	},
+	"stats": {
+		"contract": {
+			"buys": 0,
+			"claims": 0,
+			"reclaimables": 0,
+			"registrations": 0,
+			"transfers": 0
+		}
+	},
+	"config": {
+		"period": 350,
+		"author": "EOS Authority",
+		"snapshot_minimum_balance": 1,
+		"overwrite_snapshot": true,
+		"recalculate_wallets": true,
+		"skip_web3_sync": false,
+		"include_b1": true,
+		"load_config": true,
+		"resume": true,
+		"verbose_mt": true,
+		"poll": true
+	},
+	"block_range": {
+		"begin": 3904416,
+		"end": 5721761
+	},
+	"distribution_status": {
+		"crowdsale_over": true,
+		"tokens_frozen": 1,
+		"tokens_freeze_block": 5721761
+	},
+	"public_keys": 26725943
+}
